@@ -1,0 +1,123 @@
+body{
+    background-image: url(./assets/bg.png);
+    color: white;
+    margin: 5% 5%;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+#maincontainer{
+    display: flex;
+}
+
+#maincontainer>div{
+    width: 50%;
+}
+
+#play-button{
+display: flex;
+align-items: center;
+width: 250px;
+justify-content: space-evenly;
+cursor: pointer;
+
+}
+
+#play-button>img{
+    width: 50px;
+}
+
+#game-text{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Poppins',
+        sans-serif;
+} */
+
+nav {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+}
+
+/* img {
+    width: 200px;
+} */
+
+.game-container {
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#user-rock,
+#user-paper,
+#user-scissors,
+#com-rock,
+#com-paper,
+#com-scissors {
+    display: none;
+}
+
+.options-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+/* 
+h1 {
+    text-align: center;
+    color: white;
+} */
+
+#result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    display: none;
+}
+
+#button {
+    height: 50px;
+    width: 180px;
+    margin-top: 10px;
+    background-color: #FFC434;
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.user-container, .computer-container{
+    border: 3px solid #FFC434;
+    height: 500px;
+    width: 500px;
+}
+
+#user-result, #computer-result{
+    height: 300px;
+    width: 300px;
+}
+
+#game-container h1{
+    text-align: center;
+}
