@@ -1,5 +1,5 @@
 body{
-    background-image: url(./assets/bg.png);
+    background-image: url("./assets/bg.png");
     color: white;
     margin: 5% 5%;
     font-family: 'Poppins',
